@@ -14,17 +14,18 @@ import LennardJonesNondimensional from '@site/src/components/LennardJonesNondime
 
 - The Lennard-Jones potential is given by a linear combination of two terms:
   - an attractive term that goes to zero as $-\frac{1}{r^6}$ as $r \to \infty$
-  - a repulsive term that goes to infinity as $\frac{1}{r^12}$ as $r \to 0$
+  - a repulsive term that goes to infinity as $\frac{1}{r^{12}}$ as $r \to 0$
 
 $$
 U_{\mathrm{LJ}} = \frac{a}{r^{12}} - \frac{b}{r^6}
 $$
 
 - This form is useful for investigating material-specific behaviour
+- To investigate the physics instead, we seek a non-dimensional form of the equation
 
 <LennardJonesNondimensional />
 
-- To investigate the physics instead, we will define a general non-dimensional form by:
+- We will define a general non-dimensional form by:
   - introducing a non-dimensional length $\rho = \frac{r}{r_{\mathrm{min}}}$
   - setting the potential energy minimum to a value of -1
 - In order to achieve this in code, we solve for $a$ and $b$ using the conditions:
