@@ -22,6 +22,7 @@ const config = {
     customFields: {
       author: "Dr. Georgios Varnavides", // set this
       affiliation: "UCB, LBNL", // set this
+      bitly: "bit.ly/atomic-hypothesis", // set this
     },
 
     // (optional) GitHub pages deployment config.
@@ -70,7 +71,7 @@ const config = {
                 }
             },
             navbar: {
-                title: '2024 Teaching Seminar | Atomic Hypothesis',  // set this
+                title: '2024 Teaching Seminar | bit.ly/atomic-hypothesis',  // set this
                 logo: {
                     alt: 'Slides',
                     src: 'img/favicon.svg',

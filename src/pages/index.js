@@ -13,6 +13,7 @@ function HomepageHeader() {
       <div className="container">
         <h2 className="hero__subtitle">{siteConfig.tagline}</h2>
         <h3 className="hero__subsubtitle">{siteConfig.customFields.author} | {siteConfig.customFields.affiliation}</h3>
+        <h4 className="hero__subsubsubtitle"> Follow along: {siteConfig.customFields.bitly} </h4>
         <div className={clsx(styles.heroInteractive)}>
 	  <LennardJonesSandbox />
         </div>
