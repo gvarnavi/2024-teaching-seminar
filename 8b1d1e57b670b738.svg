@@ -1,0 +1,111 @@
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+const Svg57B4D0B587021C3C4D9B5E438A6D1Bdb36A5A5A9Fcb3A4Ca018A6C2447Fda605Df1Aa210536410Ab27Db71F276688Bd88C396Afaa589092Ef4D78Ff1A940559C = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "500pt",
+    height: "115pt",
+    viewBox: "0 0 500 115",
+    xmlns: "http://www.w3.org/2000/svg",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("marker", {
+    style: {
+      overflow: "visible"
+    },
+    id: "a",
+    refX: 0,
+    refY: 0,
+    orient: "auto-start-reverse",
+    markerWidth: 2,
+    markerHeight: 2,
+    viewBox: "0 0 1 1",
+    preserveAspectRatio: "xMidYMid"
+  }, /*#__PURE__*/React.createElement("path", {
+    transform: "scale(.7)",
+    d: "M-2-4 9 0-2 4c2-2.33 2-5.66 0-8z",
+    style: {
+      fill: "context-stroke",
+      fillRule: "evenodd",
+      stroke: "none"
+    }
+  })), /*#__PURE__*/React.createElement("marker", {
+    style: {
+      overflow: "visible"
+    },
+    id: "b",
+    refX: 0,
+    refY: 0,
+    orient: "auto-start-reverse",
+    markerWidth: 2,
+    markerHeight: 2,
+    viewBox: "0 0 1 1",
+    preserveAspectRatio: "xMidYMid"
+  }, /*#__PURE__*/React.createElement("path", {
+    transform: "scale(.7)",
+    d: "M-2-4 9 0-2 4c2-2.33 2-5.66 0-8z",
+    style: {
+      fill: "context-stroke",
+      fillRule: "evenodd",
+      stroke: "none"
+    }
+  }))), /*#__PURE__*/React.createElement("path", {
+    style: {
+      fill: "none",
+      stroke: "#000",
+      strokeWidth: 1.00063,
+      strokeLinecap: "square",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 3.25,
+      strokeDasharray: "none",
+      strokeOpacity: 1
+    },
+    d: "M136.59 57.203c1.343-8.589 1.773-17.538 5-25.68 1.39-2.253 2.635 1.372 2.816 2.563 3.683 16.859 3.937 34.311 7.893 51.121.007 1.532 1.796 3.339 2.284.95 3.068-11.301 3.725-23.097 5.401-34.657 1.236-7.975 1.613-16.223 4.26-23.887 1.13-1.866 2.024 1.407 2.207 2.293 3.98 18.16 4.354 36.93 8.443 55.067.032 1.27 1.587 3.752 2.28 1.39 2.966-10.33 3.557-21.175 5.097-31.781 1.34-8.95 1.808-18.152 4.565-26.809.92-2.079 2.104.83 2.206 1.829 4.05 18.148 4.423 36.92 8.443 55.074.133.942 1.194 4.03 2.207 2.031 2.834-8.77 3.273-18.12 4.64-27.2 1.514-10.47 2.124-21.167 5.021-31.374.202-1.488 1.736-1.355 1.902.07 3.068 11.217 3.714 22.934 5.383 34.414 1.265 8.103 1.602 16.51 4.352 24.278 1.37 1.686 1.997-2.001 2.281-2.899 3.874-18.072 4.287-36.726 8.391-54.75.019-1.442 1.737-3.437 2.28-1.062 3.047 11.045 3.683 22.592 5.328 33.902 1.253 8.234 1.668 16.73 4.334 24.66 1.063 1.945 2.049-1.227 2.207-2.14 4-18.159 4.376-36.93 8.443-55.075.085-1.038 1.339-3.835 2.206-1.715 2.908 9.454 3.402 19.466 4.849 29.215 1.432 9.807 1.993 19.843 4.808 29.38.65 2.21 2.17-.012 2.207-1.25 4.108-18.021 4.517-36.674 8.369-54.747.426-.896.575-3.905 2.054-3.223 2.604 5.791 2.711 12.405 3.803 18.61 1.922 13.18 2.775 26.562 5.854 39.543.083 1.034 1.361 3.17 2.054 1.273 2.88-9.224 3.357-19.011 4.778-28.535 1.456-10.032 2.034-20.293 4.884-30.055.614-2.216 2.172-.092 2.206 1.18 4.117 18.016 4.523 36.667 8.369 54.738.432.914.56 3.908 2.05 3.285 2.568-5.57 2.667-11.973 3.73-17.964 1.99-13.463 2.804-27.15 6.01-40.399.049-1.193 1.523-2.863 2.053-.937 2.95 9.973 3.499 20.48 5.002 30.738 1.371 9.3 1.887 18.837 4.656 27.855.891 2.278 2.205-.71 2.284-1.804 4.028-18.153 4.403-36.925 8.443-55.074.11-.984 1.262-3.957 2.207-1.887 2.89 9.335 3.38 19.232 4.828 28.863 1.367 8.73 1.537 17.809 4.502 26.192 1.273 2.348 2.705-1.153 2.914-2.399 2.087-7.576 2.947-15.442 4-23.21"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      stroke: "none",
+      fillRule: "evenodd",
+      fill: "red",
+      fillOpacity: 1
+    },
+    d: "M136.59 57.203a28.352 28.352 0 1 0-48.398 20.05 28.352 28.352 0 0 0 48.398-20.05Zm0 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      stroke: "none",
+      fillRule: "evenodd",
+      fill: "#00f",
+      fillOpacity: 1
+    },
+    d: "M420.113 57.203a28.352 28.352 0 1 0-48.398 20.05 28.352 28.352 0 0 0 40.094 0 28.36 28.36 0 0 0 8.304-20.05Zm0 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      fill: "none",
+      stroke: "#000",
+      strokeWidth: 1.00063,
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeDasharray: "none",
+      strokeOpacity: 1,
+      markerEnd: "url(#a)"
+    },
+    d: "M89.434 15.748h25"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      fill: "none",
+      stroke: "#000",
+      strokeWidth: 1.00063,
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeDasharray: "none",
+      strokeOpacity: 1,
+      markerEnd: "url(#b)"
+    },
+    d: "M410.566 15.748h-25"
+  }));
+};
+export default Svg57B4D0B587021C3C4D9B5E438A6D1Bdb36A5A5A9Fcb3A4Ca018A6C2447Fda605Df1Aa210536410Ab27Db71F276688Bd88C396Afaa589092Ef4D78Ff1A940559C;

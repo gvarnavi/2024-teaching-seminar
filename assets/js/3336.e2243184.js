@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_2024teaching_seminar=self.webpackChunk_2024teaching_seminar||[]).push([[3336],{83336:(e,s,a)=>{a.r(s)}}]);

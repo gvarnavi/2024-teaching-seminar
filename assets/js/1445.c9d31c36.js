@@ -1,0 +1,1 @@
+(self.webpackChunk_2024teaching_seminar=self.webpackChunk_2024teaching_seminar||[]).push([[1445],{51445:()=>{}}]);

@@ -1,0 +1,110 @@
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+const Svg9Eb118Bf23Ac092Df9A421A8D9C916F5D61293Edfead564Ff112Dfd7Efbbea3911A4Beff311352Eb82F84204D446D7F8F01Cf79B8559607D0562C5De9Bc3A265 = _ref => {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "500pt",
+    height: "115pt",
+    viewBox: "0 0 500 115",
+    xmlns: "http://www.w3.org/2000/svg",
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("marker", {
+    style: {
+      overflow: "visible"
+    },
+    id: "a",
+    refX: 0,
+    refY: 0,
+    orient: "auto-start-reverse",
+    markerWidth: 2,
+    markerHeight: 2,
+    viewBox: "0 0 1 1",
+    preserveAspectRatio: "xMidYMid"
+  }, /*#__PURE__*/React.createElement("path", {
+    transform: "scale(.7)",
+    d: "M-2-4 9 0-2 4c2-2.33 2-5.66 0-8z",
+    style: {
+      fill: "context-stroke",
+      fillRule: "evenodd",
+      stroke: "none"
+    }
+  })), /*#__PURE__*/React.createElement("marker", {
+    style: {
+      overflow: "visible"
+    },
+    id: "b",
+    refX: 0,
+    refY: 0,
+    orient: "auto-start-reverse",
+    markerWidth: 2,
+    markerHeight: 2,
+    viewBox: "0 0 1 1",
+    preserveAspectRatio: "xMidYMid"
+  }, /*#__PURE__*/React.createElement("path", {
+    transform: "scale(.7)",
+    d: "M-2-4 9 0-2 4c2-2.33 2-5.66 0-8z",
+    style: {
+      fill: "context-stroke",
+      fillRule: "evenodd",
+      stroke: "none"
+    }
+  }))), /*#__PURE__*/React.createElement("path", {
+    style: {
+      fill: "none",
+      stroke: "#000",
+      strokeWidth: 1,
+      strokeLinecap: "square",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 3.25,
+      strokeOpacity: 1
+    },
+    d: "M193.012 57.203c.647-8.472.892-17.02 2.43-25.39.137-1.663 1.217-.89 1.175.347 1.49 9.909 1.638 19.964 2.404 29.944.643 8.183.828 16.435 2.157 24.544-.022.73.663 1.1.727.172 1.355-7.745 1.503-15.65 2.12-23.479.838-11.548 1.186-23.15 2.661-34.642.028-.449.442-2.556.884-1.246 1.335 7.183 1.452 14.536 2.042 21.807.876 12.07 1.252 24.192 2.739 36.209.215.506.074 1.889.727 1.914 1.15-3.88 1.087-8.042 1.53-12.055 1.218-15.194 1.66-30.454 3.33-45.61.256-.823.067-2.262.805-2.73 1.089 3.149.986 6.626 1.399 9.924 1.33 15.909 1.762 31.89 3.496 47.764.26.832.067 2.258.806 2.746 1.074-3.052.974-6.44 1.376-9.645 1.352-15.996 1.775-32.069 3.522-48.03.254-.842.07-2.256.802-2.763 1.082 3.041.971 6.426 1.38 9.621 1.346 16.002 1.777 32.077 3.518 48.043.259.846.07 2.266.806 2.778 1.078-3.035.972-6.41 1.376-9.598 1.353-16.004 1.777-32.085 3.522-48.055.251-.857.07-2.257.802-2.793 1.071 2.96.96 6.266 1.361 9.382 1.365 16.072 1.79 32.22 3.537 48.26.256.863.074 2.258.802 2.808 1.076-3.419 1.023-7.177 1.435-10.749 1.283-15.614 1.727-31.297 3.423-46.876.257-.869.074-2.271.805-2.825 1.057 2.854.946 6.062 1.338 9.075 1.387 16.163 1.803 32.404 3.56 48.535.253.876.076 2.272.802 2.84 1.064-2.842.941-6.048 1.34-9.051 1.38-16.168 1.809-32.412 3.557-48.547.248-.896.08-2.267.806-2.855 1.06 2.838.942 6.033 1.337 9.03 1.382 16.17 1.813 32.417 3.557 48.556.25.903.083 2.267.805 2.87 1.067-2.825.94-6.019 1.34-9.007 1.38-16.173 1.81-32.422 3.558-48.563.24-.909.087-2.278.801-2.886 1.042 2.664.915 5.707 1.302 8.539 1.416 16.322 1.836 32.724 3.596 49.015.248.915.084 2.283.805 2.903 1.081-2.804.928-5.989 1.312-8.961 1.402-16.27 1.808-32.62 3.595-48.856.258-.77.064-2.248.806-2.617 1.118 3.437 1.028 7.188 1.454 10.77 1.288 15.658 1.716 31.387 3.443 47.007.252.779.065 2.249.802 2.633 1.12-3.424 1.031-7.17 1.454-10.742 1.29-15.663 1.72-31.398 3.443-47.023.258-.786.063-2.251.806-2.649 1.103 3.361 1.005 7.037 1.43 10.541 1.205 14.25 1.572 28.568 3.115 42.787.294 1.044.098 2.735 1.023 3.336 1.29-2.946 1.169-6.367 1.633-9.535.526-5.632.913-11.277 1.27-16.922"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      stroke: "none",
+      fillRule: "evenodd",
+      fill: "red",
+      fillOpacity: 1
+    },
+    d: "M193.012 57.203a28.352 28.352 0 1 0-48.399 20.05 28.352 28.352 0 0 0 40.094 0 28.36 28.36 0 0 0 8.305-20.05Zm0 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      stroke: "none",
+      fillRule: "evenodd",
+      fill: "#00f",
+      fillOpacity: 1
+    },
+    d: "M363.691 57.203a28.352 28.352 0 1 0-48.398 20.05 28.352 28.352 0 0 0 48.398-20.05Zm0 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      fill: "none",
+      stroke: "#000",
+      strokeWidth: 1.00063,
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeDasharray: "none",
+      strokeOpacity: 1,
+      markerEnd: "url(#a)"
+    },
+    d: "M316.536 15.748h25"
+  }), /*#__PURE__*/React.createElement("path", {
+    style: {
+      fill: "none",
+      stroke: "#000",
+      strokeWidth: 1.00063,
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeDasharray: "none",
+      strokeOpacity: 1,
+      markerEnd: "url(#b)"
+    },
+    d: "M183.464 15.748h-25"
+  }));
+};
+export default Svg9Eb118Bf23Ac092Df9A421A8D9C916F5D61293Edfead564Ff112Dfd7Efbbea3911A4Beff311352Eb82F84204D446D7F8F01Cf79B8559607D0562C5De9Bc3A265;
