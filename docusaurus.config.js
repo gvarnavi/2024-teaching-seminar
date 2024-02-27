@@ -16,7 +16,7 @@ const config = {
 
     // The url for your site: <url>/<baseUrl>/
     url: 'https://gvarnavi.github.io',  // set this
-    baseUrl: '/2024teaching-seminar/',  // set this
+    baseUrl: '/2024-teaching-seminar/',  // set this
 
     // Author, affiliation, and bit.ly links (and any other custom fields you want)
     customFields: {
@@ -26,7 +26,7 @@ const config = {
 
     // (optional) GitHub pages deployment config.
     organizationName: 'gvarnavi',  // set this – GitHub Org or Username
-    projectName: '2024teaching-seminar',  // set this – repo name
+    projectName: '2024-teaching-seminar',  // set this – repo name
     trailingSlash: false,
 
     onBrokenLinks: 'throw',
