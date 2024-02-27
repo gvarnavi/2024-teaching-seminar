@@ -1,0 +1,33 @@
+---
+id: lj_hamiltonian-mechanics
+sidebar_position: 1
+title: Hamiltonian Mechanics
+hide_table_of_contents: true
+hide_title: true
+---
+
+## Hamiltonian Mechanics
+
+:::note[Hamilton's Equations Reminder]
+Recall that for time-independent potentials, we can define the **Lagrangian** as:
+$$
+\mathcal{L}\left(\left\{q \right\},\left\{\dot{q}\right\}\right) = \mathcal{T} - \mathcal{V},
+$$
+where $\mathcal{T}$ and $\mathcal{V}$ are the total kinetic and potential energies, and $q_i$ is the coordinate of particle $i$.  
+This allows us to define a **canonical momentum** conjugate:
+$$
+p_i \equiv \frac{\partial \mathcal{L}}{\partial \dot{q}_i},
+$$
+and use it to express the **Hamiltonian** as:
+$$
+\mathcal{H}\left(\left\{ q \right\}, \left\{ p \right\} \right) = \sum_i p_i \dot{q}_i - \mathcal{L}\left(\left\{ q \right\}, \left\{ \dot{q} \right\} \right) = \mathcal{T} + \mathcal{V}.
+$$
+Hamilton's canonical equations are then given by:
+$$
+\begin{aligned}
+\frac{\partial \mathcal{H}}{\partial p_i} &= \dot{q}_i \\
+\frac{\partial \mathcal{H}}{\partial q_i} &= - \dot{p}_i
+\end{aligned}
+$$
+
+:::

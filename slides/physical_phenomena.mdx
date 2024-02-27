@@ -1,0 +1,41 @@
+---
+id: physical_phenomena
+sidebar_position: 4
+title: Physical Phenomena
+hide_table_of_contents: true
+hide_title: true
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+import LennardJonesLatticeDynamics from '@site/src/components/LennardJonesLatticeDynamics.js'
+import LennardJonesSurfaceEnergy from '@site/src/components/LennardJonesSurfaceEnergy.js'
+import LennardJonesCompressionWaves from '@site/src/components/LennardJonesCompressionWaves.js'
+import LennardJonesDislocations from '@site/src/components/LennardJonesDislocations.js'
+
+## Physical Phenomena
+
+- So far, we have investigated the dynamics of a diatomic molecule
+- Our approach generalizes nicely to larger systems, such as 1D chains and 2D lattices
+  - revealing a rich landscape of physical phenomena
+
+<Tabs lazy>
+
+<TabItem value="1d-chains" label="1D Chains">
+<LennardJonesLatticeDynamics />
+</TabItem>
+
+<TabItem value="2d-surfaces" label="2D Surfaces">
+<LennardJonesSurfaceEnergy />
+</TabItem>
+
+<TabItem value="compression-waves" label="Compression Waves">
+<LennardJonesCompressionWaves />
+</TabItem>
+
+<TabItem value="dislocations" label="Dislocations">
+<LennardJonesDislocations />
+</TabItem>
+
+</Tabs>

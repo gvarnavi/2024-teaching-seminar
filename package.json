@@ -1,0 +1,63 @@
+{
+  "name": "2024teaching-seminar",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
+  },
+  "dependencies": {
+    "@datalayer/jupyter-react": "0.8.2",
+    "@docusaurus/core": "latest",
+    "@docusaurus/preset-classic": "latest",
+    "@docusaurus/theme-live-codeblock": "latest",
+    "@easyops-cn/docusaurus-search-local": "^0.38.1",
+    "@gvarnavi/lennard-jones-compression-waves": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-compression-waves/",
+    "@gvarnavi/lennard-jones-dislocations": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-dislocations/",
+    "@gvarnavi/lennard-jones-form": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-form/",
+    "@gvarnavi/lennard-jones-harmonic": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-harmonic/",
+    "@gvarnavi/lennard-jones-lattice-dynamics": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-lattice-dynamics/",
+    "@gvarnavi/lennard-jones-nondimensional": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-nondimensional/",
+    "@gvarnavi/lennard-jones-sandbox": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-sandbox/",
+    "@gvarnavi/lennard-jones-surface-energy": "link:./../observable-components/node_modules/@gvarnavi/lennard-jones-surface-energy/",
+    "@mdx-js/react": "^3.0.0",
+    "@observablehq/runtime": "5",
+    "ace-builds": "^1.32.0",
+    "clsx": "^2.0.0",
+    "docusaurus-plugin-sass": "^0.2.5",
+    "prism-react-renderer": "^2.3.0",
+    "react": "^18.0.0",
+    "react-ace": "^10.1.0",
+    "react-dom": "^18.0.0",
+    "react-py": "^1.10.6",
+    "rehype-katex": "^7.0.0",
+    "remark-math": "^6.0.0",
+    "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "latest",
+    "@docusaurus/types": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
