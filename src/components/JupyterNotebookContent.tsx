@@ -9,7 +9,6 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
         
 const JupyterNotebookContent = (props: any) => {
   const { token, serverHttpUrl, serverWsUrl, nbformat} = props;
-  console.log(nbformat);
   return (
     <BrowserOnly
       fallback={<div>Jupyter Notebook fallback content for prerendering.</div>}>
