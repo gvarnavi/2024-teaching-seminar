@@ -6,22 +6,16 @@ hide_table_of_contents: true
 hide_title: true
 ---
 
-import JupyterNotebookContent from '@site/src/components/JupyterNotebookContent';
-import nbformat from '@site/static/notebooks/lennard-jones_lj-dimer.ipynb.json';
+import JupyterNotebook from '@site/src/components/JupyterNotebook';
 
 ## Lennard-Jones diatomic molecule
 - We can generalize this for the Lennard-Jones potential
   - by simply changing the potential energy expression and re-running all the steps
 
-:::danger[Warning]
-The code blocks below are Wolfram Language snippets and unfortunately won't work on the web.
-If you have seen me present this live and are curious how to do that, please reach out - I use a local Wolfram Engine jupyter kernel!
-:::
-
-<JupyterNotebookContent
-  nbformat= {nbformat}
-  serverHttpUrl='https://oss.datalayer.tech/api/jupyter'
-  serverWsUrl='wss://oss.datalayer.tech/api/jupyter'
+<JupyterNotebook
+  path= {'lennard-jones_lj-dimer.ipynb'}
+  serverHttpUrl='http://localhost:8686/api/jupyter'
+  serverWsUrl='ws://localhost:8686/api/jupyter'
   token='60c1661cc408f978c309d04157af55c9588ff9557c9380e4fb50785750703da6'
 />
 
